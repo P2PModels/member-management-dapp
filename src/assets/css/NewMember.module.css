@@ -1,0 +1,50 @@
+.NewMember {
+    margin: 50px;
+    padding: 20px;
+}
+
+.newMemberButtonSection {
+    text-align: center;
+}
+
+.newMemberButton {
+    background-color: #919192 !important;
+    border: 2px solid #919192 !important;
+    border-radius: 4px;
+    vertical-align: middle;
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+    color: #FFFF;
+}
+
+.newMemberButton:disabled {
+    background-color: #DDDDDD !important;
+    border: 2px solid #DDDDDD !important;
+    border-radius: 4px;
+    vertical-align: middle;
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    cursor: not-allowed;
+}
+
+.newMemberOccupationSelectedList {
+    margin: 20px auto;
+}
+
+.deleteUploadedFileButton {
+    background-color: #ffffff !important;
+    border: 2px solid #919192 !important;
+    border-radius: 4px;
+    vertical-align: middle;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+    color: #56595A;
+}
+
