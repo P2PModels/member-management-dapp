@@ -7,13 +7,13 @@ import {
   offices,
   occupationCategories,
   occupations,
-} from "../../utils/smartconfig";
+} from "../../utils/dappconfig";
 import { getWeb3, checkRinkebyNetwork } from "../../contracts/web3";
 import swal from "sweetalert";
 import factory from "../../contracts/factory";
 import Member from "../../contracts/member";
 import MemberOccupations from "../../components/members/member/MemberOccupations";
-import { Loader } from "../../utils/smartloader";
+import { Loader } from "../../utils/loader";
 import MemberSearch from '../../components/members/member/MemberSearch';
 
 

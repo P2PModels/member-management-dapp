@@ -7,7 +7,7 @@ import {
   offices,
   occupationCategories,
   occupations,
-} from "../../utils/smartconfig";
+} from "../../utils/dappconfig";
 import {
   checkEmail,
   checkTextField,
@@ -23,7 +23,7 @@ import {
 } from "../../contracts/web3";
 import swal from "sweetalert";
 import factory from "../../contracts/factory";
-import { Loader } from "../../utils/smartloader";
+import { Loader } from "../../utils/loader";
 import FileUploader from "../../utils/FileUploader";
 import MemberOccupations from "../../components/members/member/MemberOccupations";
 

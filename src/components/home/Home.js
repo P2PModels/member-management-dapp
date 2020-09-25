@@ -16,7 +16,7 @@ class Home extends Component {
             <Grid.Column width={8}>
               <p>¡Hola!</p>
               <p>Gracias por ayudarnos a completar la información de las</p>
-              <p>personas que formamos parte de Smart.</p>
+              <p>personas que formamos parte de esta organización.</p>
               {this.props.metaMaskInstalled ? (
                 this.props.rinkebyNetwork ? (
                   <Members metaMaskConnected={this.props.metaMaskConnected} />

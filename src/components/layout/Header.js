@@ -3,7 +3,7 @@ import { Image, Grid } from "semantic-ui-react";
 import MetaMaskInfo from "../ethereum/MetaMaskInfo";
 import styles from "../../assets/css/Header.module.css";
 
-const srcSmartLogo = "/images/logo-p2pmodels_02.png";
+const srcOrgLogo = "/images/logo-p2pmodels_02.png";
 const srcMetaMaskIcon = "/images/metamask-fox-icon.svg";
 
 const Header = (props) => {
@@ -12,7 +12,7 @@ const Header = (props) => {
       <Grid>
         <Grid.Column width={10}>
           <Image
-            src={srcSmartLogo}
+            src={srcOrgLogo}
             as="a"
             size="small"
             href="https://p2pmodels.eu/"
