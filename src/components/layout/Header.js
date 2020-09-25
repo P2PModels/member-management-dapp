@@ -3,7 +3,7 @@ import { Image, Grid } from "semantic-ui-react";
 import MetaMaskInfo from "../ethereum/MetaMaskInfo";
 import styles from "../../assets/css/Header.module.css";
 
-const srcSmartLogo = "/images/logo-smart.png";
+const srcSmartLogo = "/images/logo-p2pmodels_02.png";
 const srcMetaMaskIcon = "/images/metamask-fox-icon.svg";
 
 const Header = (props) => {
@@ -15,7 +15,7 @@ const Header = (props) => {
             src={srcSmartLogo}
             as="a"
             size="small"
-            href="http://www.smart-ib.coop/"
+            href="https://p2pmodels.eu/"
             target="_blank"
             spaced="right"
           />
