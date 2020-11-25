@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+#user specific files.
+compile.js
+deploy.js
+ADDRESS
+
 # production
 /build
 
