@@ -12,9 +12,12 @@
 compile.js
 deploy.js
 ADDRESS
+/src/contracts/factory.js
+/src/contracts/member.js
 
 # production
 /build
+/src/contracts/build
 
 # misc
 .DS_Store
